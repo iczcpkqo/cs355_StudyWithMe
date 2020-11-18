@@ -1,0 +1,157 @@
+.v1 {
+}
+
+.v1 .bl-content {
+    margin-top: 20px;
+}
+
+.v1 .bl-content .bl-cookie {
+
+}
+
+.v1 .bl-cookie .ctr-label {
+
+}
+
+.v1 .bl-cookie .ctr-label {
+}
+
+.v1 .bl-cookie .ctr-label .breadcrumb {
+    background-color: #fff;
+}
+.v1 .bl-cookie .ctr-label .__label {
+
+}
+
+.v1 .bl-content .bl-opera {
+
+}
+
+.v1 .bl-opera .ctr-button {
+    margin: 0px 0px 40px 0px;
+}
+
+.v1 .bl-opera .ctr-button .__button {
+
+}
+
+.v1 .bl-content .bl-list {
+    border: solid 1px #e0e0e0;
+}
+
+.v1 .bl-content .bl-list .cl-task {
+
+}
+
+.v1 .cl-task .task-table {
+
+}
+
+.v1 .cl-task .task-table thead tr th {
+    border-top: none;
+}
+
+.v1 .cl-task .task-table thead .time {
+    text-align: center;
+}
+
+.v1 .cl-task .task-table .w-20 {
+    width: 20%;
+}
+
+.v1 .cl-task .task-table .w-60 {
+    width: 60%;
+}
+
+.v1 .cl-task .task-table tbody tr .tit,
+.v1 .cl-task .task-table tbody tr .time {
+    padding: 14px 24px;
+}
+
+.v1 .cl-task .task-table tbody tr .tit:hover,
+.v1 .cl-task .task-table tbody tr .time:hover,
+.v1 .cl-task .task-table tbody tr .member:hover {
+    background-color: #E3F2FD;
+    cursor: pointer;
+}
+
+.v1 .cl-task .task-table tbody tr .tit a,
+.v1 .cl-task .task-table tbody tr .time.__calender ,
+.v1 .cl-task .task-table tbody tr .member a {
+    color: #0091EA;
+    text-decoration: none;
+}
+
+.v1 .cl-task .task-table tbody tr .tit a {
+}
+
+.v1 .cl-task .task-table tbody tr .time {
+    text-align: center;
+}
+
+.v1 .cl-task .task-table tbody tr .member {
+    padding: 0px;
+    text-align: left;
+}
+
+.v1 .cl-task .task-table tbody tr .member .__dropdown-group .dropdown-selected {
+    float: left;
+    height: 100%;
+    padding: 14px 24px;
+    width: 100%;
+}
+
+.v1 .cl-task .task-table tbody tr .member .__dropdown-group .dropdown-menu {
+    margin: 53px 0px 0px 9px;
+}
+
+.v1 .cl-task .task-table tbody tr .member .__dropdown-group .dropdown-menu .li {
+    border-bottom: solid 1px #e0e0e0;
+    padding: 10px 0px 10px 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.v1 .cl-task .task-table tbody tr .member .__dropdown-group .dropdown-menu .li:last-child {
+   border: none;
+}
+
+.v1 .cl-task .task-table tbody tr .member .__dropdown-group .dropdown-menu .li:hover {
+    background-color: #E3F2FD;
+}
+
+.v1 .cl-task .task-table tbody tr .member img {
+    border-radius: 20px;
+    height: 20px;
+    margin: -4px 10px 0px 0px;
+    width: 20px;
+}
+
+.v1 .cl-task .task-table tbody tr .member a {
+}
+
+/*.v1 .cl-task .task-table .thead {*/
+
+/*}*/
+
+/*.v1 .cl-task .task-table .thead .tr {*/
+/*   border: solid 1px #f00;*/
+/*}*/
+
+/*.v1 .cl-task .task-table .thead .tr .td {*/
+/*    background-color: #0c5460;*/
+/*    float: left;*/
+/*}*/
+
+/*.v1 .cl-task .task-table .tbody {*/
+
+/*}*/
+
+/*.v1 .cl-task .task-table .tbody .tr {*/
+/*    border: solid 1px #0f0;*/
+/*}*/
+
+/*.v1 .cl-task .task-table .tbody .tr .td {*/
+/*    background-color: #0c54f0;*/
+/*    float: left;*/
+/*}*/
