@@ -1,0 +1,15 @@
+*.exe
+.class
+.classpath
+.deployables
+.git
+.gitignore
+.project
+.svn
+.idea/
+/.settings/
+/target/
+
+!.gitignore
+.gitkeep
+!.gitkeep
