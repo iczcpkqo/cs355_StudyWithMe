@@ -155,3 +155,41 @@
 /*    background-color: #0c54f0;*/
 /*    float: left;*/
 /*}*/
+
+/* nav bar just copy from style.css */
+.navbar .button {
+    color: blue;
+}
+
+.navbar hr{
+    border: 1px solid purple;
+    bottom: 0px;
+    float: left;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar #small {
+    height:25px;
+    width:25px;
+}
+
+.navbar #big {
+    height:100px;
+    width:100px;
+}
+
+.navbar li a {
+    font-size:25px;
+    padding-left:300px !important;
+}
+
+.navbar .navbar-brand {
+    font-size:25px;
+}
+.navbar #del {
+    background-color: red;
+}
