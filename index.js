@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
 		integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -28,7 +30,7 @@
         <a class="nav-link" href="#">Memebers</a>
       </li>
     </ul>
-    <img  id="small"src="https://mdbootstrap.com/img/Photos/Avatars/img(31).jpg" class="img-fluid z-depth-1 rounded-circle"
+    <img  id="small" src="https://mdbootstrap.com/img/Photos/Avatars/img(31).jpg" class="img-fluid z-depth-1 rounded-circle"
       alt="Responsive image">
     <a class="nav-link" href="#">me</a>
   </div>
