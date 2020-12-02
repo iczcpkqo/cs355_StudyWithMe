@@ -1,0 +1,193 @@
+.v1.grouplist .bl-content {
+
+}
+.v1.grouplist .bl-content .bl-title {
+    float: left;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+}
+
+.v1.grouplist .bl-content .bl-title .ctr-label {
+
+}
+
+.v1.grouplist .bl-content .bl-title .ctr-label a {
+    font-size: 22px;
+    font-weight: 700;
+}
+.v1.grouplist .bl-content .bl-opera {
+    float: left;
+    height: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.v1.grouplist .bl-content .bl-opera .ctr-button {
+
+}
+
+.v1.grouplist .bl-content .bl-opera .ctr-button button {
+   float: right;
+}
+
+.v1.grouplist .bl-content .bl-list {
+    float: left;
+    width: 100%;
+}
+
+.v1.grouplist .bl-content .bl-list .bl-cards {
+    float: left;
+    width: 100%;
+}
+
+.v1.grouplist .bl-content .bl-list .bl-cards {
+
+}
+
+.v1.grouplist .ctr-card {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.v1.grouplist .ctr-card .card {
+    height: 180px;
+}
+
+.v1.grouplist .ctr-card .card:hover {
+   border: solid 2px #a3d3f7;
+}
+
+.v1.grouplist .ctr-card .card .card-title {
+    float: left;
+    height: 70px;
+    padding-top: 23px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.v1.grouplist .ctr-card .card .card-title a {
+    color: #5a6268;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.v1.grouplist .ctr-card .card .card-figure {
+    float: left;
+    margin-left: 15px;
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-tasks {
+    float: left;
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-tasks .tasks-title a,
+.v1.grouplist .ctr-card .card .card-figure .figure-group .members-title a {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-tasks .tasks-number,
+.v1.grouplist .ctr-card .card .card-figure .figure-group .members-number {
+    padding-top: 10px;
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-tasks .tasks-number a,
+.v1.grouplist .ctr-card .card .card-figure .figure-group .members-number a {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-split {
+    float: left;
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-split span {
+    border-right: solid 1px #b9bbbe;
+    float: left;
+    height: 40px;
+    margin: 40px 0px 0px -10px;
+    padding: 0px;
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-group {
+    float: right;
+    margin-right: 20px;
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-group .members-title {
+
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-group .members-title a {
+
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-group .members-number {
+
+}
+
+.v1.grouplist .ctr-card .card .card-figure .figure-group .members-number a {
+
+}
+
+.v1.grouplist .ctr-card .card  .card-opera {
+    display: none;
+    position: absolute;
+    right: 0px;
+}
+
+.v1.grouplist .ctr-card .card:hover  .card-opera {
+    display: block;
+}
+
+.v1.grouplist .ctr-card .card  .card-opera .opera-leave,
+.v1.grouplist .ctr-card .card  .card-opera .opera-rename,
+.v1.grouplist .ctr-card .card  .card-opera .opera-delete {
+    background-color: #efe6a4;
+    color: #b07610;
+    cursor: pointer;
+    float: right;
+    margin: 2px 2px 0px 8px;
+    padding: 2px 15px 3px 15px ;
+    text-align: center;
+    vertical-align: center;
+}
+
+.v1.grouplist .ctr-card .card  .card-opera .opera-leave:hover,
+.v1.grouplist .ctr-card .card  .card-opera .opera-rename:hover,
+.v1.grouplist .ctr-card .card  .card-opera .opera-delete:hover {
+    background-color: #b07610;
+    color: #efe6a4;
+    float: right;
+}
+/*.v1.grouplist .ctr-card .card  .card-opera .opera-leave a,*/
+/*.v1.grouplist .ctr-card .card  .card-opera .opera-rename a,*/
+/*.v1.grouplist .ctr-card .card  .card-opera .opera-delete a {*/
+/*    line-height: 100%;*/
+/*}*/
+
+.v1.grouplist .ctr-card .card  .card-opera .opera-leave {
+    /*height: 30px;*/
+    /*width: 65px;*/
+}
+
+.v1.grouplist .ctr-card .card  .card-opera .opera-leave a {
+
+}
+
+.v1.grouplist .ctr-card .card  .card-opera .opera-rename {
+
+}
+
+.v1.grouplist .ctr-card .card  .card-opera .opera-rename a {
+
+}
+
+.v1.grouplist .ctr-card .card  .card-opera .opera-delete {
+
+}
+
+.v1.grouplist .ctr-card .card  .card-opera .opera-delete a {
+
+}
