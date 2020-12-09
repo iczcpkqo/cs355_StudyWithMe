@@ -50,6 +50,7 @@
 }
 
 .v1.grouplist .ctr-card .card {
+    cursor: pointer;
     height: 180px;
 }
 

@@ -19,25 +19,25 @@
 <!--    </div>-->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Team 15</a>
+        <a class="navbar-brand jp-grouplist" href="#">Team 15</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Tasks<span class="sr-only">(current)</span></a>
+                    <a class="nav-link jp-tasklist" href="#">Tasks<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Notes</a>
+                    <a class="nav-link jp-notes" href="#">Notes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Memebers</a>
+                    <a class="nav-link jp-memberlist" href="#">Memebers</a>
                 </li>
             </ul>
             <img  id="small"src="https://mdbootstrap.com/img/Photos/Avatars/img(31).jpg" class="img-fluid z-depth-1 rounded-circle"
                   alt="Responsive image">
-            <a class="nav-link" href="#">me</a>
+            <a class="nav-link jp-aboutme" href="#">me</a>
         </div>
         <hr>
     </nav>
@@ -50,12 +50,12 @@
             <div class="ctr-label">
                <nav aria-label="breadcrumb">
                    <ol class="breadcrumb">
-                       <li class="breadcrumb-item">
+                       <li class="breadcrumb-item jp-grouplist">
                            <a class="__label">
                                Team15
                            </a>
                        </li>
-                       <li class="breadcrumb-item active" aria-current="page">
+                       <li class="breadcrumb-item active jp-tasklist" aria-current="page">
                            <a class="__label">
                                task list
                            </a>
@@ -90,7 +90,7 @@ deadline
                    </thead>
                    <tbody>
                         <tr>
-                            <td class="tit">
+                            <td class="tit jp-taskdetail">
                                 <a href="#"> Adding React to existing web application </a>
                             </td>
                             <td class="time __calender" id="test1">
@@ -129,7 +129,7 @@ deadline
 
                         <!--     repe     -->
                         <tr>
-                            <td class="tit">
+                            <td class="tit jp-taskdetail">
                                 <a href="#"> Adding React to existing web application </a>
                             </td>
                             <td class="time __calender">
@@ -166,7 +166,7 @@ deadline
                         </tr>
 
                         <tr>
-                            <td class="tit">
+                            <td class="tit jp-taskdetail">
                                 <a href="#"> Adding React to existing web application </a>
                             </td>
                             <td class="time __calender">
@@ -203,7 +203,7 @@ deadline
                         </tr>
 
                         <tr>
-                            <td class="tit">
+                            <td class="tit jp-taskdetail">
                                 <a href="#"> Adding React to existing web application </a>
                             </td>
                             <td class="time __calender">
@@ -240,7 +240,7 @@ deadline
                         </tr>
 
                         <tr>
-                            <td class="tit">
+                            <td class="tit jp-taskdetail">
                                 <a href="#"> Adding React to existing web application </a>
                             </td>
                             <td class="time __calender">
@@ -277,7 +277,7 @@ deadline
                         </tr>
 
                         <tr>
-                            <td class="tit">
+                            <td class="tit jp-taskdetail">
                                 <a href="#"> Adding React to existing web application </a>
                             </td>
                             <td class="time __calender">
@@ -368,7 +368,30 @@ deadline
             ,format: 'dd/mm/yyyy'
         });
         });
+
+        $(function(){
+            $('jp-grouplist').on('click', function(){
+                window.location.href = '../member/memberlist.html';
+            });
+            $('jp-tasklist').on('click', function(){
+                window.location.href = '../task/tasklist.html';
+            });
+            $('jp-taskdetail').on('click', function(){
+                window.location.href = '../taskdetail.html';
+            });
+            $('jp-notes').on('click', function(){
+                window.location.href = '';
+            });
+            $('jp-memberlist').on('click', function(){
+                window.location.href = '../member/memberlist.html';
+            });
+            $('jp-aboutme').on('click', function(){
+                window.location.href = '';
+            });
+        })
+
     </script>
+    <script src="../js/task/base-end.js"></script>
 </body>
 </html>
 
