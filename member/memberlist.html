@@ -8,6 +8,8 @@
 
     <script src="../js/task/components/jquery-3.5.1.js"></script>
     <script src="../js/bootstrap/bootstrap.min.js"></script>
+    <script src="../js/task/base-end.js"></script>
+    <script src="../js/task/base-first.js"></script>
 </head>
 <body class="v1 memberlist">
 
@@ -57,27 +59,34 @@
                 </nav>
             </div>
 
+            <div id="add-memberbox" style="display: none;">
+                <input id="add-name" type="text" value="Aname">
+                <button type="button" class="btn btn-primary __button" onclick="addMemberCard()">submit</button>
+            </div>
             <div class="ctr-button col-2">
-                <button type="button" class="btn btn-primary __button">Add Member</button>
+                <button type="button" class="btn btn-primary __button" onclick="showMemberSubmit()">Add Member</button>
             </div>
         </div>
 
-        <div class="bl-list">
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                   <div class="card-photo">
-                       <img src="../img/20201025155816.jpg"/>
-                   </div>
-                   <div class="card-name">
-                       <a href="#">Aname</a>
-                   </div>
-                   <div class="card-opera">
-                       <div class="opera-delete">
-                           <a>Delete</a>
-                       </div>
-                   </div>
-                </div>
-            </div>
+<!--        box   -->
+
+        <div class="bl-list" id="member-box">
+
+<!--            <div class="cl-card col-2">-->
+<!--                <div class="ctr-card jp-aboutme">-->
+<!--                   <div class="card-photo">-->
+<!--                       <img src="../img/20201025155816.jpg"/>-->
+<!--                   </div>-->
+<!--                   <div class="card-name">-->
+<!--                       <a href="#">Aname</a>-->
+<!--                   </div>-->
+<!--                   <div class="card-opera">-->
+<!--                       <div class="opera-delete">-->
+<!--                           <a>Delete</a>-->
+<!--                       </div>-->
+<!--                   </div>-->
+<!--                </div>-->
+<!--            </div>-->
 
 
 <!--          repe END -->
@@ -85,489 +94,35 @@
 
 
 
-
-
-
-
-
-
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cl-card col-2">
-                <div class="ctr-card jp-aboutme">
-                    <div class="card-photo">
-                        <img src="../img/20201025155816.jpg"/>
-                    </div>
-                    <div class="card-name">
-                        <a href="#">Aname</a>
-                    </div>
-                    <div class="card-opera">
-                        <div class="opera-delete">
-                            <a>Delete</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
             <!--          repe -->
 
+        </div>
+        <div class="cl-page">
 
-
-            <div class="cl-page">
-
-                <nav>
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#" >Previous</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">1</a>
-                        </li>
-                        <li class="page-item active" aria-current="page">
-                            <a class="page-link" href="#">
-                                2
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
-
-            </div>
-
+            <nav>
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" >Previous</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">
+                            2
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
 
         </div>
-
     </div>
 
     <div>
@@ -577,7 +132,70 @@
     <div>
 
     </div>
-    <script src="../js/task/base-end.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"> </script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+
+<script>
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    var ref = firebase.database().ref();
+
+    var dataGroup = ref.child('Group');
+    var dataUsers = ref.child('users');
+
+    dataUsers.once('value',function(users){
+        var jata = users.val();
+        for (var i in jata)
+            insertMemberCard(jata[i].personal_info.fname + " " + jata[i].personal_info.lname);
+
+    }, function (error) {
+            console.log("Error: " + error.code);
+    });
+
+    function insertMemberCard(name){
+        var inCtr = '<div class="cl-card col-2">' +
+                        '<div class="ctr-card jp-aboutme">' +
+                            '<div class="card-photo">' +
+                                '<img src="../img/20201025155816.jpg"/>' +
+                                '</div>' +
+                            '<div class="card-name">' +
+                                '<a href="#">'+name+'</a>' +
+                                '</div>' +
+                            '<div class="card-opera">' +
+                                '<div class="opera-delete">' +
+                                    '<a onclick="hiddenMemberCard(this)">Delete</a>' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>';
+        document.getElementById("member-box").innerHTML += inCtr;
+    }
+
+    function hiddenMemberCard(obj){
+        obj.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+    }
+
+    function showMemberSubmit(){
+        document.getElementById("add-memberbox").style.display = "block";
+    }
+
+    function addMemberCard(){
+        document.getElementById("add-memberbox").style.display = "none";
+        insertMemberCard(document.getElementById("add-name").value);
+    }
+</script>
 </body>
 </html>
 

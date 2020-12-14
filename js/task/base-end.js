@@ -18,3 +18,7 @@ $(function(){
         window.location.href = '';
     });
 });
+
+function jpToTaskList(){
+    window.location = "../task/tasklist.html";
+}
