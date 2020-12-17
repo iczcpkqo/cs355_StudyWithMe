@@ -160,3 +160,13 @@
 .navbar #del {
     background-color: red;
 }
+
+#add-memberbox,
+#add-name {
+}
+
+#add-memberbox {
+    float: right;
+}
+#add-name {
+}
