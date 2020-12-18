@@ -1,0 +1,209 @@
+.App{
+  background: white;
+}
+
+#button0{
+  background-color: white; 
+  margin-left: 50px;
+  margin-top: 30px;
+  border: none;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  color: Purple;
+  cursor: pointer;
+}
+
+h1{
+  text-align: right;
+  margin-top: -50px;
+  margin-right: 40px;
+  color: rgb(160, 52, 196);
+}
+
+hr{
+  border-top: 1px solid purple;
+}
+
+hr1{
+  border-top: 1px solid black;
+}
+
+#button0:hover{
+  background-color: rgb(241, 237, 237);
+}
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+}
+.Rectangle{
+  position: relative;
+  height: 220px;
+  width: 270px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color:yellow;
+  box-sizing: content-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size:16px;
+  resize: none;
+}
+
+#button5{
+  width: 90px;
+  height: 30px;
+  background-color:white;
+  color: black;
+  text-align: center;
+  margin-top: 6px;
+  margin-left: 2px;
+  cursor: pointer;
+  font-size: large;
+  border-radius: 10px;
+}
+
+#button5:hover{
+  background-color: rgb(241, 237, 237);
+}
+
+#button6{
+  width: 90px;
+  height: 30px;
+  background-color:white;
+  color: black;
+  text-align: center;
+  margin-top: 6px;
+  margin-left: 85px;
+  cursor: pointer;
+  font-size: large;
+  border-radius: 10px;
+}
+
+#button6:hover{
+  background-color: rgb(241, 237, 237);
+}
+
+textarea{
+  background-color: yellow;
+  height: 130px;
+  width: 250px;
+  margin-left: 7px;
+  margin-top: 6px;
+  font-size:16px;
+  border-style: hidden;
+  resize: none;
+  }
+
+h{
+  margin-left: 430px;
+  font-size: 29px;
+  color: Purple;
+}
+
+#button1{
+    background-color: white;
+    color: purple;
+    margin-left: 120px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 6px 30px;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+#button1:hover{
+  background-color: lightblue;
+}
+
+#button2{
+  background-color: white;
+  color: purple;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 337px;
+  cursor: pointer;
+  border-style: hidden;
+}
+
+#button4{
+  background-color: white;
+  color: purple;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left:5px;
+  cursor: pointer;
+  border-style: hidden;
+}
+
+#button3{
+  background-color:white;
+  color: purple;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+  border-style: hidden;
+}
+
+#button2:hover{
+  background-color: rgb(241, 237, 237);
+}
+#button3:hover{
+  background-color: rgb(241, 237, 237);
+}
+#button4:hover{
+  background-color: rgb(241, 237, 237);
+}
+
+
+.button {
+    color: blue;
+}
+
+hr{
+    border: 1px solid purple;
+}
+
+#small
+{
+    height:25px;
+    width:25px;
+}
+
+#big
+{
+    height:100px;
+    width:100px;
+}
+
+li a
+{
+    font-size:25px;
+    padding-left:300px !important;
+}
+
+.navbar-brand
+{
+    font-size:25px;
+}
+#del
+{
+  background-color: red;
+}
+
+
